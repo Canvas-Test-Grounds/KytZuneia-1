@@ -1,0 +1,94 @@
+/* id tags */
+#account-bar-name{
+  font-size:20px;
+  margin:3px 3px 0px 3px;
+  display:inline-block;
+  vertical-align:bottom;
+}
+
+#account-bar-level{
+  font-size:20px;
+  display:inline-block;
+  margin:3px 3px 0px 3px;
+}
+
+#account-bar-next-level{
+  display:inline-block;
+  vertical-align: middle;
+  font-size:20px;
+}
+
+
+
+
+
+
+
+/* class tags */
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+
+.xp-bar {
+  height:5px;
+  width:50%;
+  background:#035;
+  display:inline-block;
+  vertical-align:middle;
+  }
+
+  .xp-bar-fill-1{
+    height:100%;
+    width:65%;
+    background:#3af;
+    font-size:12px;
+    line-height:10px;
+    text-align:right;
+  }
+
+  .xp-bar-fill-2{
+    height:100%;
+    width:42%;
+    background:#3af;
+    font-size:12px;
+    line-height:10px;
+    text-align:right;
+  }
+
+  .xp-bar-fill-3{
+    height:100%;
+    width:54%;
+    background:#3af;
+    font-size:12px;
+    line-height:10px;
+    text-align:right;
+  }
+
+  .xp-bar-fill-4{
+    height:100%;
+    width:25%;
+    background:#3af;
+    font-size:12px;
+    line-height:10px;
+    text-align:right;
+  }
+
+  .xp-bar-fill-5{
+    height:100%;
+    width:73%;
+    background:#3af;
+    font-size:12px;
+    line-height:10px;
+    text-align:right;
+  }
+
+  .xp-bar-fill-6{
+    height:100%;
+    width:54%;
+    background:#3af;
+    font-size:12px;
+    line-height:10px;
+    text-align:right;
+  }
