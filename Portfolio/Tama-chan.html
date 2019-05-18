@@ -4,9 +4,10 @@
     <title>KytZuneia</title>
     <link rel="stylesheet" href="plugin.css">
     <link rel="stylesheet" href="xp.css">
+    <link rel="stylesheet" href="plugin2.css">
     <script src="plugin.js"></script>
     <meta charset="utf-8">
-    <meta name="description" content="Puw1ng's cute bot and info">
+    <meta name="description" content="Our products page">
     <meta name="author" content="Puw1ng">
     <meta spellcheck="true">
   </head>
@@ -39,7 +40,7 @@
     <section id="showcase">
       <div id="bg">
       <div class="container">
-        <h1>My <span class="highlight">cutest</span> bot in<span class="highlight">existence</span>.</h1>
+        <h1>A portfolio of <span class="highlight">myself</span> and my <span class="highlight">progress</span>.</h1>
         <ul>
           <li><p>Puw1ng's Cute Bot</p></li>
         </div>
@@ -54,21 +55,35 @@
 
           <iframe src="https://discordapp.com/widget?id=456459901951279108&theme=dark" width="260" height="400" allowtransparency="true" frameborder="0"></iframe>
         <ul>
+          <div class="pad">
           <img src="img/neko.gif" class="img">
+        </div>
+      </div>
+    </section>
+
+    <section id="tama-bio">
+      <div class="container">
+        <h1>Tama-chan Bot<h1>
+            <p>Created by me. I originally wanted to create a bot only for my server (KytZu Bot), but I ended up making plans to have this bot join other servers so I renamed it to Tama-chan.</p>
+            <p>It currently can't do many things. I'm trying my best to add more functions to this.</p>
+            <p>This bot also welcomes new users in the channel #logs (If your server has one).
+              <div class="padding">
+            <img src="img/chika_rave.gif" class="img">
+          </div>
       </div>
     </section>
 
     <section>
     <div id="bot">
       <div align="center">
-      <div class="container">
+      <div class="container2">
       <img class="round" src="img/tama.png" width="150" height="150">
-      <p>Pre-alpha</p>
-      <h1>
-        Tama-chan
-      </h1>
+      <h1>Pre-alpha</h1>
 
       <table align="center" class="teburu">
+        <tr>
+          <th colspan="2" class="tab">Tama-chan</th>
+        </tr>
         <tr>
           <td>
       <div align="center" class="tab">
@@ -87,13 +102,30 @@
   </td>
   </tr>
   </table>
-
-        <br>
+  <br>
+        <table align="center" class="teb">
+          <tr>
+            <th colspan="2" class="tab">Commands</th>
+          </tr>
+          <tr>
+            <td>
+        <div align-"center" class="tab">
+        <button class="tablinks" onclick="openCommand(event, 'misc')"><b>Miscellaneous</b></button>
+      </div>
+    </td>
+    <td>
+  <div align="center" class="tab">
+  <button class="tablinks" onclick="openCommand(event, 'useful')"><b>Useful</b></button>
+  </div>
+  </td>
+    </tr>
+    </table>
+        <div class="tabcontent" id="misc">
+      <table class="teburu">
   <div align="center">
-  <table>
     <!-- first row -->
   <tr>
-  <th>Command</th><th>Response</th>
+  <th class="tab">Command</th><th>Response</th>
     <tr>
     <!-- Second row-->
     <tr>
@@ -109,7 +141,7 @@
     <td>!bitch_empty</td><td>Yeet!</td>
     </tr>
     <tr>
-    <td>!info</td><td>Bot html</td>
+      <td>!react-all</td><td>Reacts with all emojis in the server</td>
     </tr>
     <tr>
       <td>!bot_profile</td><td>bot profile pic</td>
@@ -133,6 +165,48 @@
       <td>!yes</td><td><img src="https://gifimage.net/wp-content/uploads/2018/11/yes-anime-gif-1.gif"></td>
     </tr>
     </table>
+  </div>
+
+  <div class="tabcontent" id="useful">
+<table class="teb">
+  <!-- first row -->
+<tr>
+<th class="tab">Command</th><th>Response</th>
+  <tr>
+  <!-- Second row-->
+  <tr>
+  <td>!info</td><td>website info (DM)</td>
+  </tr>
+  <tr>
+  <td>!invite</td><td>Invite link to invite bot (DM)</td>
+  </tr>
+  <tr>
+  <td>!kick @[user]</td><td>Kicks user</td>
+  </tr>
+
+  </table>
+<br>
+  <table class="teb">
+    <!-- first row -->
+    <tr>
+      <th colspan="2">Music Commands</th>
+    </tr>
+  <tr>
+  <th class="tab">Command</th><th>Response</th>
+    <tr>
+    <!-- Second row-->
+    <tr>
+    <td>!play [Song name]</td><td>Plays music</td>
+    </tr>
+    <tr>
+    <td>!skip</td><td>skips song</td>
+    </tr>
+    <tr>
+    <td>!stop</td><td>Stops song</td>
+    </tr>
+
+    </table>
+</div>
     </div>
   </div>
 </div>
